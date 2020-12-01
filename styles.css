@@ -1,0 +1,25 @@
+body {
+  width: 70%;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+.global-nav {
+}
+
+.global-nav-list {
+  background: lightgray;
+  height: 60px;
+  border: 1px solid black;
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  flex: 1 200px;
+  text-align: center;
+}
